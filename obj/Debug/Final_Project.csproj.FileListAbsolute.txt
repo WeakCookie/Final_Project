@@ -148,3 +148,13 @@ E:\Git\Final_Project\obj\Debug\Final_Project.csprojAssemblyReference.cache
 E:\Git\Final_Project\obj\Debug\Final_Project.csproj.CopyComplete
 E:\Git\Final_Project\obj\Debug\Final_Project.dll
 E:\Git\Final_Project\obj\Debug\Final_Project.pdb
+E:\Git\Final_Project\bin\EntityFramework.dll
+E:\Git\Final_Project\bin\EntityFramework.SqlServer.dll
+E:\Git\Final_Project\bin\System.Net.Http.Formatting.dll
+E:\Git\Final_Project\bin\System.Web.Http.dll
+E:\Git\Final_Project\bin\System.Web.Http.WebHost.dll
+E:\Git\Final_Project\bin\EntityFramework.xml
+E:\Git\Final_Project\bin\EntityFramework.SqlServer.xml
+E:\Git\Final_Project\bin\System.Net.Http.Formatting.xml
+E:\Git\Final_Project\bin\System.Web.Http.xml
+E:\Git\Final_Project\bin\System.Web.Http.WebHost.xml
