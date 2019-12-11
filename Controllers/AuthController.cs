@@ -24,11 +24,12 @@ namespace Final_Project.Controllers
         {
             try
             {
-                var currentUser = db.Users.SingleOrDefault(u => (u.Email == user.Email) && (u.Password == user.Password));
+                var currentUser = db.Users.SingleOrDefault(u => (u.Username == user.Username || u.Email == user.Email) && (u.Password == user.Password));
                 if (currentUser != null)
                 {
                     Session["loggedIn"] = currentUser.Email;
-                    return RedirectToAction("Index", "Home");
+                    ViewBag.fullname = currentUser.FullName;
+                    return RedirectToAction("Index", "Home", new { page = (int?)null });
                 }
                 ViewBag.error = "Wrong password and email combination !!!";
                 return View();
