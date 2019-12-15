@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Final_Project.Filters;
 using Final_Project.Models;
 
 namespace Final_Project.Controllers
@@ -64,6 +65,7 @@ namespace Final_Project.Controllers
             return RedirectToAction("Index", "Home");
         }
 
+        [CustomAuthFilter]
         public ActionResult Logout()
         {
             Session["loggedIn"] = null;
